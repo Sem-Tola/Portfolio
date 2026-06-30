@@ -1,141 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio · Vercel ready</title>
-  <!-- Separate CSS file (style.css) linked -->
-  <link rel="stylesheet" href="../back/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Rivera · Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
+    <div class="container">
+        <!-- ========== HERO ========== -->
+        <header class="hero">
+            <div class="hero-text">
+                <h1>Alex Rivera</h1>
+                <div class="subhead">Design &amp; code · product engineer</div>
+                <div class="hero-badge">
+                    ✦ available for projects
+                    <span class="vercel-badge">▲ Vercel</span>
+                </div>
+                <div class="hero-links">
+                    <a href="#">Work</a>
+                    <a href="#">Resume</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">hello@alex.dev</a>
+                </div>
+            </div>
+            <div class="deploy-badge">
+                ⚡ ready to deploy
+            </div>
+        </header>
 
-    <!-- ========== HERO ========== -->
-    <header class="hero">
-      <div class="hero-text">
-        <h1>Alex Rivera</h1>
-        <div class="subhead">Design &amp; code · product engineer</div>
-        <div class="hero-badge">
-          ✦ available for projects
-          <span class="vercel-badge">▲ Vercel</span>
-        </div>
-        <div class="hero-links">
-          <a href="#">Work</a>
-          <a href="#">Resume</a>
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">hello@alex.dev</a>
-        </div>
-      </div>
-      <div style="font-size: 1.1rem; background: #f0f0f0; padding: 0.2rem 1.2rem; border-radius: 60px; color: #1a1a1a;">
-        ⚡ ready to deploy
-      </div>
-    </header>
+        <!-- ========== PROJECTS ========== -->
+        <h2>Featured projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+                <span class="project-tag">Design system</span>
+                <h3>Orbit UI</h3>
+                <p class="project-desc">
+                    Component library built with CSS custom properties and vanilla JS. Used across 5+ products.
+                </p>
+                <div class="project-meta">
+                    <span>React</span>
+                    <span>CSS</span>
+                    <span>Storybook</span>
+                </div>
+                <a href="#" class="card-link">Case study</a>
+            </article>
 
-    <!-- ========== PROJECTS ========== -->
-    <h2>Featured projects</h2>
-    <div class="projects-grid">
+            <!-- Project 2 -->
+            <article class="project-card">
+                <span class="project-tag">Web app</span>
+                <h3>Weatherwave</h3>
+                <p class="project-desc">
+                    Real-time weather dashboard with map overlays and 7‑day forecast. Light/dark mode.
+                </p>
+                <div class="project-meta">
+                    <span>Vue</span>
+                    <span>D3</span>
+                    <span>API</span>
+                </div>
+                <a href="#" class="card-link">Live demo</a>
+            </article>
 
-      <!-- project 1 -->
-      <article class="project-card">
-        <span class="project-tag">Design system</span>
-        <h3>Orbit UI</h3>
-        <p class="project-desc">
-          Component library built with CSS custom properties and vanilla JS. Used across 5+ products.
-        </p>
-        <div class="project-meta">
-          <span>React</span>
-          <span>CSS</span>
-          <span>Storybook</span>
-        </div>
-        <a href="#" class="card-link">Case study</a>
-      </article>
+            <!-- Project 3 -->
+            <article class="project-card">
+                <span class="project-tag">Tool</span>
+                <h3>Palette Pro</h3>
+                <p class="project-desc">
+                    Accessibility‑first color tool for designers. Generate contrast ratios and palettes.
+                </p>
+                <div class="project-meta">
+                    <span>TypeScript</span>
+                    <span>Canvas</span>
+                    <span>WCAG</span>
+                </div>
+                <a href="#" class="card-link">Try it</a>
+            </article>
 
-      <!-- project 2 -->
-      <article class="project-card">
-        <span class="project-tag">Web app</span>
-        <h3>Weatherwave</h3>
-        <p class="project-desc">
-          Real-time weather dashboard with map overlays and 7‑day forecast. Light/dark mode.
-        </p>
-        <div class="project-meta">
-          <span>Vue</span>
-          <span>D3</span>
-          <span>API</span>
+            <!-- Project 4 -->
+            <article class="project-card">
+                <span class="project-tag">Open source</span>
+                <h3>Vercel Starter</h3>
+                <p class="project-desc">
+                    Minimal portfolio template – exactly this page. One‑click deploy on Vercel.
+                </p>
+                <div class="project-meta">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Vercel</span>
+                </div>
+                <a href="#" class="card-link">Clone repo</a>
+            </article>
         </div>
-        <a href="#" class="card-link">Live demo</a>
-      </article>
 
-      <!-- project 3 -->
-      <article class="project-card">
-        <span class="project-tag">Tool</span>
-        <h3>Palette Pro</h3>
-        <p class="project-desc">
-          Accessibility‑first color tool for designers. Generate contrast ratios and palettes.
-        </p>
-        <div class="project-meta">
-          <span>TypeScript</span>
-          <span>Canvas</span>
-          <span>WCAG</span>
+        <!-- ========== ABOUT + SKILLS ========== -->
+        <div class="skills-section">
+            <div class="skills-block">
+                <h3>Skills</h3>
+                <ul>
+                    <li>UI/UX</li>
+                    <li>React</li>
+                    <li>Vue</li>
+                    <li>TypeScript</li>
+                    <li>Node</li>
+                    <li>CSS</li>
+                    <li>Figma</li>
+                    <li>Vercel</li>
+                </ul>
+            </div>
+            <div class="about-text">
+                <h3>About</h3>
+                <p>
+                    I'm Alex — product engineer with 6+ years of experience building 
+                    interfaces that are fast, accessible, and a joy to use. 
+                    Currently freelancing and teaching design systems.
+                </p>
+                <p class="about-accent">
+                    ✦ This page is fully static, ready to host on Vercel.
+                </p>
+            </div>
         </div>
-        <a href="#" class="card-link">Try it</a>
-      </article>
 
-      <!-- project 4 – extra for grid -->
-      <article class="project-card">
-        <span class="project-tag">Open source</span>
-        <h3>Vercel Starter</h3>
-        <p class="project-desc">
-          Minimal portfolio template – exactly this page. One‑click deploy on Vercel.
-        </p>
-        <div class="project-meta">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>Vercel</span>
-        </div>
-        <a href="#" class="card-link">Clone repo</a>
-      </article>
+        <!-- ========== FOOTER ========== -->
+        <footer class="footer">
+            <div>
+                © 2026 Alex Rivera – built with HTML &amp; CSS
+            </div>
+            <div class="footer-links">
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </footer>
     </div>
-
-    <!-- ========== ABOUT + SKILLS ========== -->
-    <div class="skills-section">
-      <div class="skills-block">
-        <h3>Skills</h3>
-        <ul>
-          <li>UI/UX</li>
-          <li>React</li>
-          <li>Vue</li>
-          <li>TypeScript</li>
-          <li>Node</li>
-          <li>CSS</li>
-          <li>Figma</li>
-          <li>Vercel</li>
-        </ul>
-      </div>
-      <div class="about-text">
-        <h3>About</h3>
-        <p>
-          I’m Alex — product engineer with 6+ years of experience building 
-          interfaces that are fast, accessible, and a joy to use. 
-          Currently freelancing and teaching design systems.
-        </p>
-        <p style="margin-top: 0.8rem; color: #c44536;">
-          ✦ This page is fully static, ready to host on Vercel.
-        </p>
-      </div>
-    </div>
-
-    <!-- ========== FOOTER ========== -->
-    <footer class="footer">
-      <div>
-        © 2026 Alex Rivera – built with HTML &amp; CSS
-      </div>
-      <div class="footer-links">
-        <a href="#">GitHub</a>
-        <a href="#">Twitter</a>
-        <a href="#">LinkedIn</a>
-      </div>
-    </footer>
-  </div>
 </body>
 </html>
