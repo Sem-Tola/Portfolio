@@ -107,14 +107,14 @@ a:hover {
   color: #e8c4a8;
 }
 
-.deploy-badge {
+/* .deploy-badge {
   font-size: 1.1rem;
   background: #1f1b19;
   padding: 0.2rem 1.2rem;
   border-radius: 60px;
   color: #d4c8be;
   border: 1px solid #4a3f3a;
-}
+} */
 
 /* ---------- PROJECT CARDS ---------- */
 .projects-grid {
